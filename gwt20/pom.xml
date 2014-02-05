@@ -4,14 +4,14 @@
     <parent>
         <groupId>org.atmosphere</groupId>
         <artifactId>atmosphere-extensions-project</artifactId>
-        <version>2.1.0-SNAPSHOT</version>
+        <version>2.1.1-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
     <groupId>org.atmosphere.extensions</groupId>
     <artifactId>atmosphere-gwt20-project</artifactId>
     <name>atmosphere-gwt20-project</name>
-    <version>2.1.0-SNAPSHOT</version>
+    <version>2.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <url>https://github.com/Atmosphere/atmosphere-extensions/gwt20</url>
@@ -107,7 +107,7 @@
             </dependency>
             <dependency>
                 <groupId>org.atmosphere.client</groupId>
-                <artifactId>jquery</artifactId>
+                <artifactId>javascript</artifactId>
                 <version>${javascript-version}</version>
                 <type>war</type>
                 <scope>provided</scope>
